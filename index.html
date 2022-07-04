@@ -15,7 +15,25 @@
       sapiente vel dolores est reiciendis facilis, aut ducimus minus assumenda
       veritatis quae ex!
     </p>
-    <!-- <button>공부하기</button> -->
-    <input type="button" value="공부하기" />
+    <script src="index.js"></script>
+    <input type="button" value="공부하기" onclick="clickButton()" />
+    <input
+      type="button"
+      value="night"
+      onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    document.querySelector('p').style.borderColor = 'white';
+    "
+    />
+    <input
+      type="button"
+      value="day"
+      onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('p').style.borderColor = 'rosybrown';
+    "
+    />
   </body>
 </html>
